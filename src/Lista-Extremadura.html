@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de informaión sobre SEO">
+    <meta name="author" content="Alejandro Rojas Hurtado">
+    <meta name="keyword" content="SEO,CSS,HTML,JavaScript,JS">
+    <title>Document</title>
+    <style>
+        h1{font-family: 'Monserrat', sans-serif;
+            font-size: 1cm;
+            color: #1b72d5;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            transition: color 0.3s ease;
+            cursor: pointer;}
+        .extremadura{list-style-type: disc;}
+        .andalucia{list-style-type: square;}
+        .madrid{list-style-type: decimal}
+        .valencia{list-style-type: lower-latin;}
+        .liprovincia{color:red;
+        font-family: Impact;
+        list-style-type: disc;}
+        .horizontal{display: inline;
+                    margin-right: 100px;
+                    border: 1px solid green;
+                    cursor: pointer;
+                    background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Provincias</h1>
+     <ul class="extremadura">
+        <li class="liprovincia">Extremadura</li>
+            <li>Badajoz</li>
+                <ul>
+                    <li>Don Benito</li>
+                        <ul style="list-style-type: georgian;">
+                            <li>Doña Blanca</li>
+                        </ul>
+                    <li>Medellín</li>
+                    <li>Villanueva de la Serena</li>
+                </ul>
+            <li>Cáceres</li>
+     </ul>
+     <ul class="andalucia">
+        <li class="liprovincia">Andalucía</li>
+            <li>Málaga</li>
+                <ul>
+                    <li>Torremolinos</li>
+                    <li>Marbella</li>
+                        <ul style="list-style-type: disc;">
+                            <li>Puerto Banús</li>
+                            <li>La Ronda</li>
+                        </ul>
+                    <li>Fuengirola</li>
+                </ul>
+            <li>Cádiz</li>
+            <li>Almería</li>
+            <li>Córdoba</li>
+     </ul>
+     <ol class="madrid">
+        <li class="liprovincia">Madriz</li>
+            <li>Torrejón de Ardoz</li>
+            <li>Vallekas</li>
+                <ul>
+                    <li>El Jincho</li>
+                </ul>
+            <li>San Martín de la Vega</li>
+            <li>La Cañada Real</li>
+            <li>Orcasitas</li>
+     </ol>
+     <ul class="valencia">
+        <li class="liprovincia">Valencia</li>
+            <li>Castellón</li>
+            <li>Alicante</li>
+            <li>Torrente</li>
+     </ul>
+     <ul class="horizontal">
+        <li class="horizontal">JavaScript</li>
+        <li class="horizontal">Java</li>
+        <li class="horizontal">Python</li>
+     </ul>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Página de informaión sobre SEO">
+    <meta name="author" content="Alejandro Rojas Hurtado">
+    <meta name="keyword" content="SEO,CSS,HTML,JavaScript,JS">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>¿Qué es SEO?</title>
+</head>
+    <body style="background-color: rgb(233, 241, 200);"></body>
+        <div id="fechaHora"></div>
+        <script>
+			function actualizarFechaHora() {
+			  var ahora = new Date();
+			  var fecha = ahora.toLocaleDateString();
+			  var hora = ahora.toLocaleTimeString();
+			  document.getElementById('fechaHora').innerHTML = fecha + " " + hora;
+			}
+			setInterval(actualizarFechaHora, 1000);
+			actualizarFechaHora();
+		</script>
+        <div style="text-align: center;">
+            <h1 style="font-family: sans-serif; font-size: 1cm; color: rgb(2, 186, 253); text-align: center; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);"><strong>¿Qúe es SEO?</strong></h1>
+            <h3 style="color: green; font-family: Helvetica; font-size: 22; display: grid; place-content: center">Esta es una página web destinada a informar sobre <em><strong><span style="font-weight: bold; color: rgb(4, 92, 60)">SEO</span></strong></em> y sus características.</h3>
+            <img src="https://quimera.com.bo/wp-content/uploads/2023/04/1603954182-seo-article-header.png" style="opacity: 0.9; box-shadow: 10px 5px 10px rgb(34, 33, 33);" width="600" alt="MDN">
+        </div>
+            <p style="visibility: hidden;">.</p>
+        <div>
+            <details>
+                <summary style="display: grid; place-content: center"><span style="color:rgb(1, 99, 151); cursor: pointer; font-size: 14pt;font-family: sans-serif; border: 2px solid rgb(255, 0, 0); border-radius: 5%; padding: 1px;">Punto 1: SEO y su funcionalidad</tag></span></summary>
+                    <p><abbr>SEO</abbr> significa <strong>Search Engine Optimization</strong> <i>(Optimización para motores de búsqueda)</i>. <dfn>Se trata del conjunto de estrategias y técnicas de optimización que se hacen en una página web para que aparezca orgánicamente en buscadores de Internet como <strong>Google</strong>, <strong>Yahoo</strong> o <strong>Youtube</strong>.</dfn></p>
+                <pre>  Hay varias opciones para que seo potencie tu página como:<br>
+    1. Investigación de palabras clave<br>
+            <samp>Encuentra palabras clave relevantes para tu contenido que tengan un buen volumen de búsqueda y baja competencia.</samp>
+            <samp>Usa herramientas como Google Keyword Planner, Ahrefs o SEMrush para identificar estas palabras.</samp>
+            <samp>Utiliza palabras clave de cola larga (long-tail keywords), que son frases más específicas y suelen atraer tráfico más calificado.</samp><br>
+    2. Optimización On-Page<br>
+            <samp>Incluye palabras clave en títulos y subtítulos (H1, H2, H3).</samp>
+            <samp>Crea URLs amigables que contengan palabras clave y sean fáciles de leer.</samp>
+            <samp>Escribe meta descripciones claras y atractivas con la palabra clave principal, ya que Google puede usarlas para mostrar en los resultados de búsqueda.</samp>
+            <samp>Asegúrate de tener contenido relevante y de calidad, que responda a las preguntas de los usuarios.</samp><br>
+    3. Velocidad de carga del sitio<br>
+            <samp>Un sitio rápido mejora la experiencia del usuario y ayuda en los rankings de búsqueda. Optimiza el tiempo de carga mediante:</samp>
+                <samp>Imágenes comprimidas (sin perder calidad).</samp>
+                <samp>Uso de caché y CDN (Content Delivery Network).</samp>
+                <samp>Minificación de CSS, JavaScript y HTML para reducir el tamaño de los archivos.</samp>
+                </pre>
+            </details>
+        </div>
+            <p style="visibility: hidden;">.</p>
+        <div>
+            <details>
+                <summary style="display: grid; place-content: center"><span><tag style="color:rgb(1, 99, 151); cursor: pointer; font-size: 14pt;font-family: sans-serif; border: 2px solid rgb(255, 0, 0); border-radius: 5%; padding: 1px">Punto 2: <strong>Código</strong> que podría posicionarte bien</tag></span></summary>
+                    <p>Aquí te dejo un ejemplo de código en <span style="color: green; font-weight: bold;">JavaScript</span> que puedes integrar en el <strong>/* head /*</strong> de tu página <abbr><strong>HTML</strong></abbr> para potenciar el SEO a través de <strong><em>meta tags</em></strong>. <dfn>Estos meta tags ayudan a mejorar la forma en que los motores de búsqueda leen y clasifican tu sitio</dfn></p>
+                        <code>meta charset="utf-8"</code><br>
+                        <code>meta name="description" content="descripción de vuestra página"</code><br>
+                        <code>meta name="author" content="Nombre del autor de la página"</code><br>
+                        <code>meta name="keyword" content="Las palabras claves para posicionar vuestra página <samp>SEO,HTML,CSS,JS</samp>"</code><br>
+                        <code>meta name="viewport" content="Aquí deberás poner la resolución de los dispositivos donde quieras ver la página<samp>"device-width, initial-scale=1.0" </samp></code><br>
+                            <cite>Estas etiquetas las deberás poner según el contenido de tu página</cite>
+                        <p style="color: green; font-family: Verdana; font-size: 22;">Si le ha gustado esta página escriba <kbd>Si</kbd>, si no pulse <kbd>esc</kbd></p>
+                        <iframe style="opacity: 0.9; box-shadow: 10px 5px 10px rgb(34, 33, 33);" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6204.9434364266035!2d-5.8713452842803235!3d38.958895536371614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdonoso%20cortes%20don%20benito!5e0!3m2!1ses!2ses!4v1728388084452!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <p style="visibility: hidden;">.</p>
+                        <iframe style="opacity: 0.9; box-shadow: 10px 5px 10px rgb(34, 33, 33);" title="Vídeo SEO" width="600" height="300" src="https://www.youtube.com/embed/_ewwO0Y1zb4" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen></iframe>
+            </details>
+        </div>
+       <p style="font-family: Impact; font-size: 19px; color: rgb(2, 69, 253); text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">Aleh&reg</p>
+    </body>
+</html>
